@@ -5,3 +5,17 @@ body {
 #submit {
   background-color: gray;
 }
+
+.CIRCLE {
+  border-radius: 50%;
+  border: 3px solid black;
+  width: 50%;
+  margin-left: 50px;
+  margin-bottom: 30%;
+  height: auto;
+  text-align: center;
+  background-color: gray;
+}
+.data {
+  margin-left: 50px;
+}

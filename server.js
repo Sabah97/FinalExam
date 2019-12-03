@@ -15,8 +15,8 @@ mongoose.connect(
 //Get Models
 require("./models/form-model");
 
-//Get Controllers
-// const profController = require('./controllers/professor-controller');
+// Get Controllers
+const formController = require("./controllers/form-controller");
 
 //Define Path
 const viewsPath = path.join(__dirname, "./views");
@@ -30,7 +30,7 @@ app.use(
 app.use(express.json());
 
 //fire controller
-// app.use(profController);
+app.use(formController);
 
 // set up views engine
 app.set("view engine", "hbs");
@@ -50,9 +50,9 @@ app.use(express.static("./utils"));
 app.get("/home", (req, res) => {
   res.render("index");
 });
-app.post("/home", (req, res) => {
-  res.render("index");
-});
+// app.post("/home", (req, res) => {
+//   res.render("index");
+// });
 
 /*==============================================================================================================*/
 

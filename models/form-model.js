@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const form = mongoose.model("Form", {
+const Form = mongoose.model("Form", {
   name: {
     type: String,
     required: true
@@ -13,4 +13,4 @@ const form = mongoose.model("Form", {
     required: true
   }
 });
-module.exports = form;
+module.exports = Form;
