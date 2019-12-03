@@ -3,19 +3,26 @@ body {
 }
 
 #submit {
-  background-color: gray;
+  background-color: rgb(13, 5, 58);
+  color: white;
 }
 
 .CIRCLE {
-  border-radius: 50%;
-  border: 3px solid black;
+  /* border-radius: 100%;
+  border: 3px solid black; */
   width: 50%;
   margin-left: 50px;
   margin-bottom: 30%;
   height: auto;
   text-align: center;
-  background-color: gray;
+  /* background-color: gray; */
 }
 .data {
+  border-radius: 100%;
+  border: 3px solid black;
+  display: inline-block;
   margin-left: 50px;
+  padding: 50px;
+  background-color: rgb(43, 111, 156);
+  color: white;
 }
